@@ -1,0 +1,68 @@
+{
+  "id": "geofence",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/geofence",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Geofence"
+    ],
+    "assembler-dependencies": [
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Geofence": {
+        "file": "Geofence.tsx",
+        "extends": "GeofenceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GeofenceController",
+            "path": "./GeofenceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GeofenceController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Geofence"
+    ],
+    "assembler-dependencies": [
+      "\"radar-sdk-js\": \"3.0.1\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Geofence": {
+        "file": "Geofence.web.tsx",
+        "extends": "GeofenceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GeofenceController",
+            "path": "./GeofenceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GeofenceController"
+          }
+        ]
+      }
+    }
+  }
+}

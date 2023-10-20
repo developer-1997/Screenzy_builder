@@ -1,0 +1,65 @@
+{
+  "id": "CfTeamviewerDeviceControl3rdPartyInteg",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfTeamviewerDeviceControl3rdPartyInteg",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTeamviewerDeviceControl3rdPartyInteg"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTeamviewerDeviceControl3rdPartyInteg": {
+        "file": "CfTeamviewerDeviceControl3rdPartyInteg.tsx",
+        "extends": "CfTeamviewerDeviceControl3rdPartyIntegController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfTeamviewerDeviceControl3rdPartyIntegController",
+            "path": "./CfTeamviewerDeviceControl3rdPartyIntegController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTeamviewerDeviceControl3rdPartyIntegController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfTeamviewerDeviceControl3rdPartyInteg"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfTeamviewerDeviceControl3rdPartyInteg": {
+        "file": "CfTeamviewerDeviceControl3rdPartyInteg.web.tsx",
+        "extends": "CfTeamviewerDeviceControl3rdPartyIntegController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfTeamviewerDeviceControl3rdPartyIntegController",
+            "path": "./CfTeamviewerDeviceControl3rdPartyIntegController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfTeamviewerDeviceControl3rdPartyIntegController"
+          }
+        ]
+      }
+    }
+  }
+}

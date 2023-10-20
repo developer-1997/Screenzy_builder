@@ -1,0 +1,65 @@
+{
+  "id": "CfActiveCameraTracker",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CfActiveCameraTracker",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfActiveCameraTracker"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfActiveCameraTracker": {
+        "file": "CfActiveCameraTracker.tsx",
+        "extends": "CfActiveCameraTrackerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfActiveCameraTrackerController",
+            "path": "./CfActiveCameraTrackerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfActiveCameraTrackerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CfActiveCameraTracker"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CfActiveCameraTracker": {
+        "file": "CfActiveCameraTracker.web.tsx",
+        "extends": "CfActiveCameraTrackerController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CfActiveCameraTrackerController",
+            "path": "./CfActiveCameraTrackerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CfActiveCameraTrackerController"
+          }
+        ]
+      }
+    }
+  }
+}

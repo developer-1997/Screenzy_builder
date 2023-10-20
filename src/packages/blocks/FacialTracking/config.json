@@ -1,0 +1,65 @@
+{
+  "id": "FacialTracking",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FacialTracking",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FacialTracking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FacialTracking": {
+        "file": "FacialTracking.tsx",
+        "extends": "FacialTrackingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FacialTrackingController",
+            "path": "./FacialTrackingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FacialTrackingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "FacialTracking"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FacialTracking": {
+        "file": "FacialTracking.web.tsx",
+        "extends": "FacialTrackingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "FacialTrackingController",
+            "path": "./FacialTrackingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FacialTrackingController"
+          }
+        ]
+      }
+    }
+  }
+}

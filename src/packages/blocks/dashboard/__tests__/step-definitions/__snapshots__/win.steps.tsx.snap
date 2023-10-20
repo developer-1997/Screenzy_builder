@@ -1,0 +1,2101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`win User navigates to win 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 3`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 4`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 5`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 6`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`win User navigates to win 7`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#1c1616",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "borderRadius": 20,
+        "marginTop": 39,
+        "padding": 20,
+        "width": "42%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "orange",
+          "borderRadius": 39,
+          "height": 78,
+          "position": "absolute",
+          "right": -39,
+          "top": -39,
+          "width": 78,
+        }
+      }
+    >
+      <Component
+        colors={
+          Array [
+            "green",
+            "green",
+            "red",
+            "red",
+          ]
+        }
+        colorsTime={
+          Array [
+            45,
+            30,
+            15,
+            0,
+          ]
+        }
+        duration={60}
+        isPlaying={true}
+        rotation="counterclockwise"
+        size={78}
+        strokeWidth={5}
+        trailColor="#fff"
+      >
+        <Component />
+      </Component>
+    </View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "top": -78,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/winemoji.png",
+          }
+        }
+        style={
+          Object {
+            "height": 118,
+            "resizeMode": "contain",
+            "width": 98,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-SemiBold",
+          "fontSize": 35,
+          "marginTop": 0,
+          "textAlign": "center",
+        }
+      }
+    >
+      Hip Hip Hurray!!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Medium",
+          "fontSize": 24,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Congrats on Winning the Voucher!
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Montserrat-Regular",
+          "fontSize": 20,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Please fill in your details to get the Offer code in your mobile.
+    </Text>
+    <View
+      style={
+        Object {
+          "marginTop": 20,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="user"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={50}
+        onChangeText={[Function]}
+        placeholder="Name"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myName"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="phone"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        keyboardType="numeric"
+        maxLength={10}
+        onChangeText={[Function]}
+        placeholder="Phone Number"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 59,
+            "width": "100%",
+          }
+        }
+        testID="myNumber"
+        value=""
+      />
+      <Text
+        style={
+          Object {
+            "color": "red",
+            "fontFamily": "Montserrat-Regular",
+            "fontSize": 20,
+            "marginTop": 4,
+          }
+        }
+      >
+         
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 0,
+          "width": 262.5,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#4b4b4b"
+        name="envelope"
+        size={26}
+        style={
+          Object {
+            "left": 16,
+            "position": "absolute",
+            "top": 16,
+          }
+        }
+      />
+      <TextInput
+        maxLength={40}
+        onChangeText={[Function]}
+        placeholder="Email (Optional)"
+        style={
+          Object {
+            "borderColor": "#dadada",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 26,
+            "paddingLeft": 63,
+            "width": "100%",
+          }
+        }
+        testID="myEmail"
+        value=""
+      />
+    </View>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      disabled={true}
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#dadada",
+          "borderColor": "#dadada",
+          "borderRadius": 98,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "margin": 20,
+          "padding": 12,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontFamily": "Montserrat-Medium",
+            "fontSize": 24,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

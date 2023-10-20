@@ -1,0 +1,66 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.ScreenzyCommercialsLLP">
+
+  <!-- 🚨 Keep only the permissions used in your app 🚨 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:requestLegacyExternalStorage="true"
+      android:usesCleartextTraffic="true"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+       <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+        android:windowSoftInputMode="adjustResize"
+          android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+           <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+         <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+
+
+        </intent-filter>
+      </activity>
+      <meta-data android:name="com.transistorsoft.locationmanager.license" android:value="99b1266b721f66cf24ff7ae840d1d718fcf228fc55fb18dea91351c54eb5d495" />
+
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+    <meta-data
+  android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+  android:value="ocr, face" />
+    <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCINS2dyuBipK8MZzOQnzyKdrS2I1_b5I4"/>
+
+   <!-- You will also only need to add this uses-libray tag -->
+   <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+    </application>
+
+    <queries>
+      <intent>
+        <action android:name="android.intent.action.VIEW" />
+        <data android:mimeType="*/*" />
+      </intent>
+    </queries>
+
+</manifest>
+
+
+

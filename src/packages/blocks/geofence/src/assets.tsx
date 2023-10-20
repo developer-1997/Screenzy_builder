@@ -1,0 +1,1 @@
+export const AddIcon = require("../assets/add.svg") 

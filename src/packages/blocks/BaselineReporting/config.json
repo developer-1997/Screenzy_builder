@@ -1,0 +1,65 @@
+{
+  "id": "BaselineReporting",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/BaselineReporting",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BaselineReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BaselineReporting": {
+        "file": "BaselineReporting.tsx",
+        "extends": "BaselineReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BaselineReportingController",
+            "path": "./BaselineReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BaselineReportingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BaselineReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BaselineReporting": {
+        "file": "BaselineReporting.web.tsx",
+        "extends": "BaselineReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BaselineReportingController",
+            "path": "./BaselineReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BaselineReportingController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "LiveStreaming",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LiveStreaming",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LiveStreaming"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LiveStreaming": {
+        "file": "LiveStreaming.tsx",
+        "extends": "LiveStreamingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LiveStreamingController",
+            "path": "./LiveStreamingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LiveStreamingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LiveStreaming"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LiveStreaming": {
+        "file": "LiveStreaming.web.tsx",
+        "extends": "LiveStreamingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "LiveStreamingController",
+            "path": "./LiveStreamingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LiveStreamingController"
+          }
+        ]
+      }
+    }
+  }
+}

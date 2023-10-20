@@ -1,0 +1,15 @@
+{
+  "bds": {
+    "name": "Core",
+    "id": "Core",
+    "platform": [
+      "desktop",
+      "mobile"
+    ],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.1.2",
+    "pages": []
+  }
+}

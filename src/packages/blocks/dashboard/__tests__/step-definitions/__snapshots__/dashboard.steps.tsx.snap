@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard Geofence data 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "position": "relative",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 39,
+          "height": 59,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "position": "absolute",
+          "right": 39,
+          "top": 39,
+          "width": 59,
+          "zIndex": 5,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+          }
+        }
+      >
+        <FlatList
+          data={Array []}
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "allDynamicVideos": Array [],
+              "allGeofenes": Array [],
+              "allStaticVideos": Array [],
+              "allVideos1": Array [],
+              "bubbleHide": false,
+              "bubble_time": 30000,
+              "cacheVideoID": 1,
+              "cacheVideoURL": null,
+              "cameraOn": false,
+              "companyId": "",
+              "correct_Answer": Array [],
+              "count": 0,
+              "counter": 0,
+              "dashboardData": Array [],
+              "dynamicVideoURL": "",
+              "dynamic_quiz": null,
+              "errorMsg": "",
+              "events": Array [],
+              "geofence": "not touhed",
+              "last_dynamic_video": false,
+              "loading": false,
+              "locationPermissionGranted": false,
+              "offline": false,
+              "offlineVideo": null,
+              "quizQuestionData": null,
+              "quizQuestionLoaded": false,
+              "quizeData": "",
+              "quizid": "",
+              "resetSeek": true,
+              "sound": false,
+              "staticPause": false,
+              "staticVideo": "",
+              "staticVideoCurrentTime": 0,
+              "static_adv": false,
+              "token": "",
+              "userEmail": "",
+              "userMobile": "",
+              "userName": "",
+              "video": "",
+              "videoId": 0,
+              "videoLoader": false,
+              "videoPlay": false,
+              "videoPlayerKey": 2343,
+            }
+          }
+        }
+      />
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "left": 20,
+          "opacity": 0,
+          "position": "absolute",
+          "top": 20,
+          "width": "100%",
+          "zIndex": -100,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "left": 40,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+          }
+        }
+      >
+        <FlatList
+          data={Array []}
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "allDynamicVideos": Array [],
+              "allGeofenes": Array [],
+              "allStaticVideos": Array [],
+              "allVideos1": Array [],
+              "bubbleHide": false,
+              "bubble_time": 30000,
+              "cacheVideoID": 1,
+              "cacheVideoURL": null,
+              "cameraOn": false,
+              "companyId": "",
+              "correct_Answer": Array [],
+              "count": 0,
+              "counter": 0,
+              "dashboardData": Array [],
+              "dynamicVideoURL": "",
+              "dynamic_quiz": null,
+              "errorMsg": "",
+              "events": Array [],
+              "geofence": "not touhed",
+              "last_dynamic_video": false,
+              "loading": false,
+              "locationPermissionGranted": false,
+              "offline": false,
+              "offlineVideo": null,
+              "quizQuestionData": null,
+              "quizQuestionLoaded": false,
+              "quizeData": "",
+              "quizid": "",
+              "resetSeek": true,
+              "sound": false,
+              "staticPause": false,
+              "staticVideo": "",
+              "staticVideoCurrentTime": 0,
+              "static_adv": false,
+              "token": "",
+              "userEmail": "",
+              "userMobile": "",
+              "userName": "",
+              "video": "",
+              "videoId": 0,
+              "videoLoader": false,
+              "videoPlay": false,
+              "videoPlayerKey": 2343,
+            }
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`dashboard Get all videos 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "position": "relative",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 39,
+          "height": 59,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "position": "absolute",
+          "right": 39,
+          "top": 39,
+          "width": 59,
+          "zIndex": 5,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+          }
+        }
+      >
+        <FlatList
+          data={Array []}
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "allDynamicVideos": Array [],
+              "allGeofenes": Array [],
+              "allStaticVideos": Array [],
+              "allVideos1": Array [],
+              "bubbleHide": false,
+              "bubble_time": 30000,
+              "cacheVideoID": 1,
+              "cacheVideoURL": null,
+              "cameraOn": false,
+              "companyId": "",
+              "correct_Answer": Array [],
+              "count": 0,
+              "counter": 0,
+              "dashboardData": Array [],
+              "dynamicVideoURL": "",
+              "dynamic_quiz": null,
+              "errorMsg": "",
+              "events": Array [],
+              "geofence": "not touhed",
+              "last_dynamic_video": false,
+              "loading": false,
+              "locationPermissionGranted": false,
+              "offline": false,
+              "offlineVideo": null,
+              "quizQuestionData": null,
+              "quizQuestionLoaded": false,
+              "quizeData": "",
+              "quizid": "",
+              "resetSeek": true,
+              "sound": false,
+              "staticPause": false,
+              "staticVideo": "",
+              "staticVideoCurrentTime": 0,
+              "static_adv": false,
+              "token": "",
+              "userEmail": "",
+              "userMobile": "",
+              "userName": "",
+              "video": "",
+              "videoId": 0,
+              "videoLoader": false,
+              "videoPlay": false,
+              "videoPlayerKey": 2343,
+            }
+          }
+        }
+      />
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "left": 20,
+          "opacity": 0,
+          "position": "absolute",
+          "top": 20,
+          "width": "100%",
+          "zIndex": -100,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "left": 40,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+          }
+        }
+      >
+        <FlatList
+          data={
+            Array [
+              Object {
+                "attributes": Object {
+                  "created_at": "2021-03-08T17:10:08.139Z",
+                  "id": 1,
+                  "title": "Dashboard_title_1",
+                  "updated_at": "2021-03-08T17:10:08.139Z",
+                  "value": 1,
+                },
+                "id": 1,
+                "type": "dashboard",
+              },
+              Object {
+                "attributes": Object {
+                  "created_at": "2021-03-08T17:10:36.867Z",
+                  "id": 2,
+                  "title": "Dashboard 5",
+                  "updated_at": "2021-03-08T17:10:36.867Z",
+                  "value": 5,
+                },
+                "id": 2,
+                "type": "dashboard",
+              },
+            ]
+          }
+          disableVirtualization={false}
+          extraData={
+            Object {
+              "allDynamicVideos": Array [],
+              "allGeofenes": Array [],
+              "allStaticVideos": Array [],
+              "allVideos1": Array [],
+              "bubbleHide": false,
+              "bubble_time": 30000,
+              "cacheVideoID": 1,
+              "cacheVideoURL": null,
+              "cameraOn": false,
+              "companyId": "",
+              "correct_Answer": Array [],
+              "count": 0,
+              "counter": 0,
+              "dashboardData": Array [
+                Object {
+                  "attributes": Object {
+                    "created_at": "2021-03-08T17:10:08.139Z",
+                    "id": 1,
+                    "title": "Dashboard_title_1",
+                    "updated_at": "2021-03-08T17:10:08.139Z",
+                    "value": 1,
+                  },
+                  "id": 1,
+                  "type": "dashboard",
+                },
+                Object {
+                  "attributes": Object {
+                    "created_at": "2021-03-08T17:10:36.867Z",
+                    "id": 2,
+                    "title": "Dashboard 5",
+                    "updated_at": "2021-03-08T17:10:36.867Z",
+                    "value": 5,
+                  },
+                  "id": 2,
+                  "type": "dashboard",
+                },
+              ],
+              "dynamicVideoURL": "",
+              "dynamic_quiz": null,
+              "errorMsg": "",
+              "events": Array [],
+              "geofence": "not touhed",
+              "last_dynamic_video": false,
+              "loading": false,
+              "locationPermissionGranted": false,
+              "offline": false,
+              "offlineVideo": null,
+              "quizQuestionData": null,
+              "quizQuestionLoaded": false,
+              "quizeData": "",
+              "quizid": "",
+              "resetSeek": true,
+              "sound": false,
+              "staticPause": false,
+              "staticVideo": "",
+              "staticVideoCurrentTime": 0,
+              "static_adv": false,
+              "token": "",
+              "userEmail": "",
+              "userMobile": "",
+              "userName": "",
+              "video": "",
+              "videoId": 0,
+              "videoLoader": false,
+              "videoPlay": false,
+              "videoPlayerKey": 2343,
+            }
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`dashboard User navigates to dashboard 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "position": "relative",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 39,
+          "height": 59,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "position": "absolute",
+          "right": 39,
+          "top": 39,
+          "width": 59,
+          "zIndex": 5,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+          }
+        }
+        style={
+          Object {
+            "height": 39,
+            "width": 39,
+          }
+        }
+      />
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "left": 20,
+          "opacity": 0,
+          "position": "absolute",
+          "top": 20,
+          "width": "100%",
+          "zIndex": -100,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "left": 40,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+          }
+        }
+        style={
+          Object {
+            "height": 70,
+            "width": 140,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`dashboard User navigates to dashboard 2`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "position": "relative",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 39,
+          "height": 59,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "position": "absolute",
+          "right": 39,
+          "top": 39,
+          "width": 59,
+          "zIndex": 5,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+          }
+        }
+        style={
+          Object {
+            "height": 39,
+            "width": 39,
+          }
+        }
+      />
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "left": 20,
+          "opacity": 0,
+          "position": "absolute",
+          "top": 20,
+          "width": "100%",
+          "zIndex": -100,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "left": 40,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+          }
+        }
+        style={
+          Object {
+            "height": 70,
+            "width": 140,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`dashboard User navigates to dashboard 3`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "position": "relative",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 39,
+          "height": 59,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "position": "absolute",
+          "right": 39,
+          "top": 39,
+          "width": 59,
+          "zIndex": 5,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+          }
+        }
+        style={
+          Object {
+            "height": 39,
+            "width": 39,
+          }
+        }
+      />
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "height": "100%",
+          "left": 20,
+          "opacity": 0,
+          "position": "absolute",
+          "top": 20,
+          "width": "100%",
+          "zIndex": -100,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "left": 40,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+          }
+        }
+        style={
+          Object {
+            "height": 70,
+            "width": 140,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

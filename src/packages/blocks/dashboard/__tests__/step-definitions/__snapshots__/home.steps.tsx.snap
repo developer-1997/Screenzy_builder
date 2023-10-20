@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post calls testing renders with the correct styles 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "grey",
+        "borderRadius": 39,
+        "height": 59,
+        "justifyContent": "center",
+        "marginTop": 20,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 39,
+        "top": 39,
+        "width": 59,
+        "zIndex": 5,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/dashboard/assets/sound.png",
+        }
+      }
+      style={
+        Object {
+          "height": 39,
+          "width": 39,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "height": "100%",
+        "left": 20,
+        "opacity": 0,
+        "position": "absolute",
+        "top": 100,
+        "width": "100%",
+        "zIndex": -100,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "left": 40,
+        "position": "absolute",
+        "top": 40,
+        "zIndex": 2,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../packages/blocks/dashboard/assets/mainlogo.png",
+        }
+      }
+      style={
+        Object {
+          "height": 70,
+          "width": 140,
+        }
+      }
+    />
+  </View>
+</View>
+`;
